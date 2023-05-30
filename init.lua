@@ -2,7 +2,7 @@ local set = vim.o
 set.number = true
 set.encoding = "UTF-8"
 set.relativenumber = true
-set.clipboard = "unnamed"
+set.clipboard = "unnamedplus"
 -- 在 copy 后高亮
 vim.api.nvim_create_autocmd({ "TextYankPost" }, {
 	pattern = { "*" },
